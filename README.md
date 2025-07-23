@@ -88,8 +88,5 @@ This dataset includes customer information such as:
 
 ## **Workflow Diagram**
 
-<img width="500" alt="workflow" src="https://github.com/user-attachments/assets/82ba754a-696c-412f-93c4-8659d43941d8" />
+<img width="500" alt="workflow" src="" />
 
----
-
-Let me know if you want to add a table of contents, badges, more diagrams, or further enhancements!
