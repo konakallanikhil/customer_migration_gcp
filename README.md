@@ -1,7 +1,3 @@
-Certainly! Here’s a revised version of your README.md with improved formatting, bolded section titles, better structure, and enhanced readability. If you want further customization (like badges, table of contents, or more visuals), let me know!
-
----
-
 # **Customer-Data-Analytics**
 
 **Role:** GCP Data Engineer  
