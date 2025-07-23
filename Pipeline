@@ -1,0 +1,42 @@
+1. First login as a authorizer -- gcloud auth login , gcloud init
+
+2. select the email id with respective the gcs
+
+3. select the project id and name with respective to the gcs
+
+4. verify you created the bucket -- gcloud storage ls
+
+5. landing zone to storge the raw data or source on prem data 
+
+6. verify the file name or landing zone file name please make sure there shouldn't be any space or gaps 
+
+7. load the file into the landing zone 
+
+8. load the file from landing zone to Google cloud storge using gcloud command -- gcloud storge cp c://landing/file.csv gs://project/bucknema/file.csv
+
+9. check and verfiy whether data is loaded into cloud bucket -- gcloud storage ls gs://project/bucknema
+
+10. create the DDL scripts from staging zone, history data , audit table , auth view
+
+11. create datasets for staging , history , auth, audit
+
+12. create tables for stage to store raw_data, history to store refine_data, auth to store bi queries, audit for confirming data
+
+13. load data from bucket to staging zone -- bq load --source_format=CSV --skip_leading_rows=1 --autodetect gs://file.csv project.dataset.stagetable
+
+14. check whether the data is inserted and when data is loaded from gcs to stage using audit table
+
+15. check the column by column to reverify the data and datatyp
+
+16. create history table and load data using transformation data from stagetable 
+
+17. check whether the data is inserted and when is data loaded from stage to history using audit table
+
+18. check the column by column to reverify the data and datatype
+
+19. archive the data into new table or archive data back to archive
+
+20. create view based on entitlement requiremerts which are taken from business intelligence , machine learning, data scientists 
+
+21. check the views or materialized views and check the columns to verify that we are created the extact solution or not 
+ 

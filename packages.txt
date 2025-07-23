@@ -1,0 +1,11 @@
+    current_date = date.today()
+    This function is basically to get the next day but adding days 
+    next_date = current_date + timedelta(days=1)
+
+    python.exe -m pip install --upgrade pip
+    pip install pandas
+    pip install google-cloud-storage, 
+    pip install google-cloud-bigquery
+    pip install python_dotenv
+    pip install apache-airflow
+    pip install git-filter-repo
